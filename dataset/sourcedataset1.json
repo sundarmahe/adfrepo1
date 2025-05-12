@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "sourcedataset1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "sourceconnection1",
