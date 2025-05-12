@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "testadf1dp7"
 		},
+		"DestinationDS1_connectionString": {
+			"value": ""
+		},
 		"sourceconnection1_connectionString": {
 			"value": ""
 		}

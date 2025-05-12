@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "testadf1dp7"
 		},
+		"DestinationDS1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'DestinationDS1'"
+		},
 		"sourceconnection1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'sourceconnection1'"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"DestinationDS1_connectionString": {
+						"value": "[parameters('DestinationDS1_connectionString')]"
 					},
 					"sourceconnection1_connectionString": {
 						"value": "[parameters('sourceconnection1_connectionString')]"
