@@ -43,7 +43,7 @@
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
 				"     mapColumn(",
-				"          FullName = column1",
+				"          FullName = Column1",
 				"     )) ~> sink1"
 			]
 		}
