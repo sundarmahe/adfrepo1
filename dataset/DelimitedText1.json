@@ -20,7 +20,11 @@
 		},
 		"schema": [
 			{
-				"name": "FirstName|LastName",
+				"name": "FirstName",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
 				"type": "String"
 			}
 		]
