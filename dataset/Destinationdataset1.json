@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "Destinationdataset1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "DestinationDS1",
@@ -20,7 +20,7 @@
 		},
 		"schema": [
 			{
-				"name": "FirstName|LastName",
+				"name": "FullName",
 				"type": "String"
 			}
 		]
