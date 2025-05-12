@@ -154,7 +154,7 @@
 						"     allowSchemaDrift: true,",
 						"     validateSchema: false,",
 						"     ignoreNoFilesFound: false) ~> source1",
-						"source1 derive(FirstName = concat(FirstName, LastName)) ~> derivedColumn1",
+						"source1 derive(Column1 = concat(FirstName, LastName)) ~> derivedColumn1",
 						"derivedColumn1 sink(allowSchemaDrift: true,",
 						"     validateSchema: false,",
 						"     input(",
@@ -163,7 +163,7 @@
 						"     skipDuplicateMapInputs: true,",
 						"     skipDuplicateMapOutputs: true,",
 						"     mapColumn(",
-						"          FullName = FirstName",
+						"          FullName = Column1",
 						"     )) ~> sink1"
 					]
 				}
